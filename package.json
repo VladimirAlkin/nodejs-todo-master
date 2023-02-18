@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-todo",
+  "version": "1.0.0",
+  "description": "Simple To-Do list app",
+  "main": "index.js",  
+  "author": "Vladimir Alkin",
+  "license": "ISC"  
+}

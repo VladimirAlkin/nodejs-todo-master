@@ -1,0 +1,94 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    }
+    body {
+    background: #f5f5f5;
+    color: #333333;
+    margin-top: 20px;
+    }
+    
+    .container {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    }
+    
+    h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+    
+    form {
+    margin-bottom: 10px;
+    }
+    
+    input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    }
+    
+    button {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    }
+    
+    button.start-button {
+    background-color: #0066cc;
+    color: white;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+    li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    font-size: 22px;
+    }
+    
+    li.completed {
+    opacity: 0.75;
+    text-decoration: line-through;
+    }
+    
+    .remove-form {
+    display: inline;
+    margin-left: 10px;
+    }
+    
+    .remove-form button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    }
+    
+    .remove-form button:hover {
+    transform: scale(1.2);
+    }
+
+    button:hover {
+        filter: brightness(80%);
+        transform: scale(1.15);
+    }
